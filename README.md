@@ -1,0 +1,4 @@
+
+This script demonstrates a real-time hand detection and tracking system using OpenCV and MediaPipe. The application captures live video from the webcam, detects hands in the frame using MediaPipe's powerful hand detection module, and draws a bounding box around each detected hand. It also classifies the hand as left or right, displays this information on the frame, and visualizes key landmarks (like finger joints) by drawing circles on the corresponding points.
+
+The code utilizes MediaPipe's Hands solution to identify hand landmarks, and OpenCV to process and display the video feed. The bounding box for each hand is calculated based on the coordinates of its landmarks, and the label ("Left" or "Right" hand) is overlaid above the box. This approach can be extended to further tasks like hand gesture recognition, sign language interpretation, or human-computer interaction projects.
